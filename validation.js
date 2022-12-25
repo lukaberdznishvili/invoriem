@@ -38,6 +38,7 @@ form.querySelectorAll('[name="gender"]').forEach(item => {
             errorPlaceholder.textContent = errors[name];
         }
     }
+    
     if (Object.keys(errors).length === 0) {
         form.submit();
     }
