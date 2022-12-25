@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+<body>
+    
+    <img src="photos/pierre-chatel-innocenti-h9ek6QA2jOU-unsplash 1.png" alt="image" class="singupimage">
+    <h1 class="sinnguptxt">Sing up</h1>
+   <div class="singup">
+    <form action="" method="post" id="registration">
+        <div>
+            <input type="text" name="username" placeholder="username..." class="pasinp">
+            <div class="error-text" id="error_username"></div>
+        </div>
+        <div>
+            <input type="password" name="password" placeholder="pasword..." class="pasinp">
+            <div class="error-text" id="error_password"></div>
+        </div>
+        <div>
+            <input type="password" name="password2" placeholder="Repaet password..." class="pasinp">
+            <div class="error-text" id="error_password2"></div>
+        </div>
+        <div>
+            <input type="radio" name="gender" value="male">
+            <label for="">Male</label>
+            <input type="radio" name="gender" value="female">
+            <label for="">Female</label>
+            <div class="error-text" id="error_gender"></div>
+        </div>
+        <div>
+            <input type="checkbox" name="agree">
+            <label for="">I agree terms...</label>
+            <div class="error-text" id="error_agree"></div> 
+        </div>
+        <button type="submit" class="sub">submite</button>
+    </form>
+    </div>
+    <script src="validation.js"></script>
+</body>
+</html>
